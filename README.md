@@ -14,7 +14,8 @@ The threshold for braking is set using a parameter `TTCThreshold` which can be c
 
 ## Demonstration
 
-<video src="/resources/demo.mp4" width="320" height="240" controls></video>
+file:///home/skanda/git/demo.mp4
+
 
 ## Build instruction
 
