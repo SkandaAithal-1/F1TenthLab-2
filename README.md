@@ -14,26 +14,33 @@ The threshold for braking is set using a parameter `TTCThreshold` which can be c
 
 ## Demonstration
 
-<video src="resource/demo.webm" width="320" height="240" controls></video>
+<video src="/resources/demo.webm" width="320" height="240" controls></video>
 
 ## Build instruction
-Place this package in a colcon workspace. Then 
+
+Place this package in a colcon workspace. Then
+
 ```
 colcon build
 ```
+
 To build only this package use -
+
 ```
 colcon build --packages-select safety_node
 ```
 
 ## Run instruction
-Make sure you have sourced ROS2 setup script as well as the local workspace setup script 
+
+Make sure you have sourced ROS2 setup script as well as the local workspace setup script
+
 ```
 source /opt/ros/foxy/setup.bash
 source install/setup.bash
 ```
 
-Launch the node using the launch file provided 
+Launch the node using the launch file provided
+
 ```
 ros2 launch safety_node aeb
 ```
