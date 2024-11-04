@@ -14,7 +14,7 @@ The threshold for braking is set using a parameter `TTCThreshold` which can be c
 
 ## Demonstration
 
-<video src="/resources/demo.webm" width="320" height="240" controls></video>
+<video src="/resources/demo.mp4" width="320" height="240" controls></video>
 
 ## Build instruction
 
